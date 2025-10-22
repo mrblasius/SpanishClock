@@ -4,7 +4,7 @@ function spinTime() {
     const clockDisplay = document.getElementById('clock-display');
     
     // 1. Generate a random hour (0-23 for 24-hour format)
-    const hour = Math.floor(Math.random() * 24); 
+    const hour = Math.floor(Math.random() * 12); 
     
     // 2. Generate a random minute, focusing on 5-minute intervals for easier practice
     // This array holds the possible minutes (0, 5, 10, 15, ..., 55)
@@ -32,3 +32,4 @@ function spinTime() {
 
 // Set a starting time when the page loads
 window.onload = spinTime;
+
