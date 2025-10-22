@@ -1,4 +1,3 @@
-JavaScript
 document.getElementById('spin-button').addEventListener('click', spinTime);
 
 function spinTime() {
